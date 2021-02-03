@@ -1,0 +1,18 @@
+curl 'https://www.cvs.com/Services/ICEAGPV1/immunization/1.0.0/getImzNDC' \
+  -H 'authority: www.cvs.com' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'sec-ch-ua: "Google Chrome";v="87", " Not;A Brand";v="99", "Chromium";v="87"' \
+  -H 'accept: application/json' \
+  -H 'x-distil-ajax: xebztatfusvxtdxdzzerd' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://www.cvs.com' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.cvs.com/vaccine/intake/store/cvd/dose-select' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --data-binary '{"requestMetaData":{"appName":"CVS_WEB","lineOfBusiness":"RETAIL","channelName":"WEB","deviceType":"DESKTOP","deviceToken":"7777","apiKey":"a2ff75c6-2da7-4299-929d-d670d827ab4a","source":"ICE_WEB","securityType":"apiKey","responseFormat":"JSON","type":"cn-dep"},"requestPayloadData":{"data":{"immunizationCode":"CVD"}}}' \
+  --compressed | jq . | egrep -v "conversationID|refId" > vaccine_type.json
