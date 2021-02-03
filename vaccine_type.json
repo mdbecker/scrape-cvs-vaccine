@@ -1,0 +1,26 @@
+{
+  "responseMetaData": {
+    "statusCode": "0000",
+    "statusDesc": "Success",
+  },
+  "responsePayloadData": {
+    "data": [
+      {
+        "immunizationCode": "CVD",
+        "ndcId": "59267100002",
+        "name": "PFIZER COVID-19 VACCINE (EUA)",
+        "addlDoseDaysMin": 21,
+        "addlDoseDaysMax": 23,
+        "additionalDoseRequired": "Y"
+      },
+      {
+        "immunizationCode": "CVD",
+        "ndcId": "80777027399",
+        "name": "MODERNA COVID-19 VACCINE (EUA)",
+        "addlDoseDaysMin": 28,
+        "addlDoseDaysMax": 30,
+        "additionalDoseRequired": "Y"
+      }
+    ]
+  }
+}

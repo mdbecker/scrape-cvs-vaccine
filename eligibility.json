@@ -1,0 +1,9 @@
+{
+  "responseMetaData": {
+    "statusCode": "0000",
+    "statusDesc": "Success",
+  },
+  "responsePayloadData": {
+    "eligibilityQuestions": []
+  }
+}

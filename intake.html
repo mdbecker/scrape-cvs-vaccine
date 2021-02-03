@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--
+    
+      Version: 1.0.0
+      Build: 1611285183443
+      Program: CVS | Immunization
+      Generated On: Thursday 01/21/2021, 10:13:03 pm EST
+      Author: Sudhakar Kande, Vignesh Ashok
+   
+  -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Immunization intake form</title>
+    <base href="/">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Setting Up Immunization Property Space -->
+    <script type="text/javascript">
+        try {
+            window.appKeyName = 'imn';
+            window.imn = window.imn || {};
+            window.imn.buildInfo = JSON.parse(
+                window.atob('eyJ2ZXJzaW9uIjoiMS4wLjAiLCJidWlsZCI6MTYxMTI4NTE4MzQ0MywicHJvZ3JhbSI6IkNWUyB8IEltbXVuaXphdGlvbiIsImdlbmVyYXRlZE9uIjoiVGh1cnNkYXkgMDEvMjEvMjAyMSwgMTA6MTM6MDMgcG0gRVNUIiwiYXV0aG9yIjoiU3VkaGFrYXIgS2FuZGUsIFZpZ25lc2ggQXNob2sifQ==')
+            );
+        } catch (e) { }
+
+        function displaySkeleton(hide) {
+            toggleSkeleton('initialSpinner', hide);
+        }
+
+        function toggleSkeleton(elId, hide) {
+            var skltnEl = document.getElementById(elId);
+            if (skltnEl) {
+                skltnEl.style.display = hide ? 'none' : 'block';
+                skltnEl.children[0].textContent = hide ? '' : 'Page Loading';
+            }
+        }
+
+    </script>
+    <script>
+        function getCookie(name) {
+            var value = "; " + document.cookie;
+            var parts = value.split("; " + name + "=");
+            if (parts.length == 2) {
+                return parts.pop().split(";").shift();
+            }
+            return '';
+        }
+        var channelCookie = getCookie('Channel');
+        function checkIsCMKportal() {
+            return (channelCookie === 'CVS_PBM_ANDROID' ||
+                channelCookie === 'CVS_PBM_IPHONE' ||
+                channelCookie === 'CVS_PBM_WEB');
+        }
+        (function () {
+            if (window.BOOMR && window.BOOMR.version) { return; }
+            var dom, doc, where, iframe = document.createElement('iframe'),
+                win = window;
+
+            var isCVS = !/caremark.com$/.test(window.location.hostname);
+            var isPROD = /^t$|^www$|^es$|^m$/.test(window.location.hostname.split('.')[0]);
+
+            function boomerangSaveLoadTime(e) {
+                win.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+            }
+            if (win.addEventListener) {
+                win.addEventListener("load", boomerangSaveLoadTime, false);
+            } else if (win.attachEvent) {
+                win.attachEvent("onload", boomerangSaveLoadTime);
+            }
+
+            iframe.src = "javascript:false";
+            iframe.title = "no content"; /* JSicat, 4/21/2017 - ADA, no iframe empty title tag */
+            iframe.role = "presentation";
+            iframe['sandbox'] = 'allow-scripts allow-same-origin';
+            (iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display:none;";
+            where = document.getElementsByTagName('script')[0];
+            where.parentNode.insertBefore(iframe, where);
+
+            try {
+                doc = iframe.contentWindow.document;
+            } catch (e) {
+                dom = document.domain;
+                iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+                doc = iframe.contentWindow.document;
+            }
+            doc.open()._l = function () {
+                var cvsK = isPROD ? '3TETJ-9Q4RH-R9RWS-JURCA-945WN' : '2MJSP-8YW2L-ZULD7-W63NH-X472Z'; // key for cvs domain
+                var caremarkK = isPROD ? 'BZFLQ-2GA3A-7L6KJ-BAW4Z-GU6RD' : '5SYMW-WFJC2-EFMDE-QL7MM-BT5HQ'; // key for caremark domain
+                var kToUse = isCVS ? cvsK : caremarkK; // assume to use the cvs key
+                // get the 'Channel' cookie and see if it tells us we are on Caremark
+                if (checkIsCMKportal()) {
+                    // we are on Caremark, use the Caremark key
+                    kToUse = caremarkK;
+                }
+
+                var js = this.createElement("script");
+                if (dom) this.domain = dom;
+                js.id = "boomr-if-as";
+                js.src = '//c.go-mpulse.net/boomerang/' + kToUse;
+                BOOMR_lstart = new Date().getTime();
+                this.body.appendChild(js);
+            };
+            doc.write('<body onload="document._l();">');
+            doc.close();
+        })(checkIsCMKportal);
+
+        window.BOOMR_config = window.BOOMR_config || {};
+        BOOMR_config.autorun = false;
+        BOOMR_config.History = {
+            auto: true,
+            enabled: true
+        };
+    </script>
+
+    <!-- Monetate API 05/21/2018 -->
+    <!-- <script type="text/javascript">var monetateT = new Date().getTime();</script>
+    <script type="text/javascript" src="https://se.monetate.net/js/2/a-815a421c/p/cvs.com/entry.js"></script> -->
+<link rel="stylesheet" href="https://assets.cvshealth.com/immunization/styles.7d84bd59c842243e1127.css"><script type="text/javascript" src="/tnadstlinj.js" defer></script><style type="text/css">#d__fFH{position:absolute;top:-5000px;left:-5000px}#d__fF{font-family:serif;font-size:200px;visibility:hidden}#axtsdueytebdbt{display:none!important}</style></head>
+
+<body>
+    <cvs-root></cvs-root>
+<script src="https://assets.cvshealth.com/immunization/runtime-es2015.825576327cdf52662947.js" type="module"></script><script src="https://assets.cvshealth.com/immunization/runtime-es5.825576327cdf52662947.js" nomodule defer></script><script src="https://assets.cvshealth.com/immunization/polyfills-es5.4baa33f442313b0b38d9.js" nomodule defer></script><script src="https://assets.cvshealth.com/immunization/polyfills-es2015.6702a35e496749836933.js" type="module"></script><script src="https://assets.cvshealth.com/immunization/vendor-es2015.ba36e42867e8f2832452.js" type="module"></script><script src="https://assets.cvshealth.com/immunization/vendor-es5.ba36e42867e8f2832452.js" nomodule defer></script><script src="https://assets.cvshealth.com/immunization/main-es2015.5988500a8935436cd5bb.js" type="module"></script><script src="https://assets.cvshealth.com/immunization/main-es5.5988500a8935436cd5bb.js" nomodule defer></script><script type="text/javascript" >var _cf = _cf || []; _cf.push(['_setFsp', true]);  _cf.push(['_setBm', true]);  _cf.push(['_setAu', '/webcontent/a3838572ui230c457e978f4f3f1933']); </script><script type="text/javascript"  src="/webcontent/a3838572ui230c457e978f4f3f1933"></script></body>
+
+</html>

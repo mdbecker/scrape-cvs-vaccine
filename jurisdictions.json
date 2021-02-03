@@ -1,0 +1,52 @@
+{
+  "responseMetaData": {
+    "statusCode": "0000",
+    "statusDesc": "Success",
+  },
+  "responsePayloadData": {
+    "jurisdictions": [
+      {
+        "id": "CT",
+        "eligibilityId": "EID_CT",
+        "name": "CT",
+        "desc": "Connecticut"
+      },
+      {
+        "id": "IN",
+        "eligibilityId": "EID_IN",
+        "name": "IN",
+        "desc": "Indiana"
+      },
+      {
+        "id": "MA",
+        "eligibilityId": "EID_MA",
+        "name": "MA",
+        "desc": "Massachusetts"
+      },
+      {
+        "id": "NY",
+        "eligibilityId": "EID_NY",
+        "name": "NY",
+        "desc": "New York"
+      },
+      {
+        "id": "OH",
+        "eligibilityId": "EID_OH",
+        "name": "OH",
+        "desc": "Ohio"
+      },
+      {
+        "id": "PR",
+        "eligibilityId": "EID_PR",
+        "name": "PR",
+        "desc": "Puerto Rico"
+      },
+      {
+        "id": "SC",
+        "eligibilityId": "EID_SC",
+        "name": "SC",
+        "desc": "South Carolina"
+      }
+    ]
+  }
+}
