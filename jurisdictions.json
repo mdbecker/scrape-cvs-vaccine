@@ -6,6 +6,12 @@
   "responsePayloadData": {
     "jurisdictions": [
       {
+        "id": "AR",
+        "eligibilityId": "EID_AR",
+        "name": "AR",
+        "desc": "Arkansas"
+      },
+      {
         "id": "CT",
         "eligibilityId": "EID_CT",
         "name": "CT",
@@ -16,6 +22,12 @@
         "eligibilityId": "EID_IN",
         "name": "IN",
         "desc": "Indiana"
+      },
+      {
+        "id": "IA",
+        "eligibilityId": "EID_IA",
+        "name": "IA",
+        "desc": "Iowa"
       },
       {
         "id": "MA",
@@ -40,6 +52,12 @@
         "eligibilityId": "EID_PR",
         "name": "PR",
         "desc": "Puerto Rico"
+      },
+      {
+        "id": "RI",
+        "eligibilityId": "EID_RI",
+        "name": "RI",
+        "desc": "Rhode Island"
       },
       {
         "id": "SC",
