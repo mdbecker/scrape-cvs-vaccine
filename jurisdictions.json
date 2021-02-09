@@ -64,6 +64,12 @@
         "eligibilityId": "EID_SC",
         "name": "SC",
         "desc": "South Carolina"
+      },
+      {
+        "id": "VA",
+        "eligibilityId": "EID_VA",
+        "name": "VA",
+        "desc": "Virginia"
       }
     ]
   }
