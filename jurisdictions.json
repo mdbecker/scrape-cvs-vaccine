@@ -12,10 +12,46 @@
         "desc": "Arkansas"
       },
       {
+        "id": "CA",
+        "eligibilityId": "EID_CA",
+        "name": "CA",
+        "desc": "California"
+      },
+      {
+        "id": "CO",
+        "eligibilityId": "EID_CO",
+        "name": "CO",
+        "desc": "Colorado"
+      },
+      {
         "id": "CT",
         "eligibilityId": "EID_CT",
         "name": "CT",
         "desc": "Connecticut"
+      },
+      {
+        "id": "GA",
+        "eligibilityId": "EID_GA",
+        "name": "GA",
+        "desc": "Georgia"
+      },
+      {
+        "id": "HI",
+        "eligibilityId": "EID_HI",
+        "name": "HI",
+        "desc": "Hawaii"
+      },
+      {
+        "id": "IL_CHI",
+        "eligibilityId": "EID_IL_CHI",
+        "name": "IL_CHI",
+        "desc": "Illinois - Chicago"
+      },
+      {
+        "id": "IL",
+        "eligibilityId": "EID_IL",
+        "name": "IL",
+        "desc": "Illinois - Other"
       },
       {
         "id": "IN",
@@ -30,10 +66,22 @@
         "desc": "Iowa"
       },
       {
+        "id": "MD",
+        "eligibilityId": "EID_MD",
+        "name": "MD",
+        "desc": "Maryland"
+      },
+      {
         "id": "MA",
         "eligibilityId": "EID_MA",
         "name": "MA",
         "desc": "Massachusetts"
+      },
+      {
+        "id": "NJ",
+        "eligibilityId": "EID_NJ",
+        "name": "NJ",
+        "desc": "New Jersey"
       },
       {
         "id": "NY",
@@ -64,6 +112,12 @@
         "eligibilityId": "EID_SC",
         "name": "SC",
         "desc": "South Carolina"
+      },
+      {
+        "id": "TX",
+        "eligibilityId": "EID_TX",
+        "name": "TX",
+        "desc": "Texas"
       },
       {
         "id": "VA",
