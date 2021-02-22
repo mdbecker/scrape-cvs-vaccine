@@ -30,6 +30,12 @@
         "desc": "Connecticut"
       },
       {
+        "id": "FL",
+        "eligibilityId": "EID_FL",
+        "name": "FL",
+        "desc": "Florida"
+      },
+      {
         "id": "GA",
         "eligibilityId": "EID_GA",
         "name": "GA",
