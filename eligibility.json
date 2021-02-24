@@ -4,6 +4,81 @@
     "statusDesc": "Success",
   },
   "responsePayloadData": {
-    "eligibilityQuestions": []
+    "eligibilityQuestions": [
+      {
+        "questionId": "1",
+        "rxQuestionId": "55428",
+        "question": "What is your age?",
+        "questionType": "text",
+        "textType": "N",
+        "answerHint": "Enter age",
+        "errorMessage": "Please enter your age",
+        "textLength": "3"
+      },
+      {
+        "questionId": "2",
+        "rxQuestionId": "57506",
+        "question": "Which of these applies to you?",
+        "questionType": "options",
+        "answerOptions": [
+          {
+            "question": "In a priority group",
+            "questionType": "list",
+            "questionHint": "What priority group are you in?",
+            "answerOptions": [
+              {
+                "question": "Age 65 and over",
+                "questionType": "option",
+                "errorMessage": null,
+                "allowIntake": true
+              },
+              {
+                "question": "Age 16+ with high-risk conditions",
+                "questionType": "option",
+                "errorMessage": null,
+                "allowIntake": true
+              },
+              {
+                "question": "Healthcare personnel",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Long term care facility residents",
+                "questionType": "option",
+                "errorMessage": null,
+                "allowIntake": true
+              },
+              {
+                "question": "Long term care facility staff",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "None of the above",
+                "questionType": "option",
+                "errorMessage": null,
+                "allowIntake": false
+              }
+            ]
+          },
+          {
+            "question": "None of the above",
+            "questionType": "option",
+            "allowIntake": false
+          }
+        ]
+      }
+    ]
   }
 }

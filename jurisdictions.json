@@ -6,6 +6,18 @@
   "responsePayloadData": {
     "jurisdictions": [
       {
+        "id": "AL",
+        "eligibilityId": "EID_AL",
+        "name": "AL",
+        "desc": "Alabama"
+      },
+      {
+        "id": "AZ",
+        "eligibilityId": "EID_AZ",
+        "name": "AZ",
+        "desc": "Arizona"
+      },
+      {
         "id": "AR",
         "eligibilityId": "EID_AR",
         "name": "AR",
@@ -28,6 +40,12 @@
         "eligibilityId": "EID_CT",
         "name": "CT",
         "desc": "Connecticut"
+      },
+      {
+        "id": "DE",
+        "eligibilityId": "EID_DE",
+        "name": "DE",
+        "desc": "Delaware"
       },
       {
         "id": "FL",
@@ -72,6 +90,12 @@
         "desc": "Iowa"
       },
       {
+        "id": "LA",
+        "eligibilityId": "EID_LA",
+        "name": "LA",
+        "desc": "Louisiana"
+      },
+      {
         "id": "MD",
         "eligibilityId": "EID_MD",
         "name": "MD",
@@ -100,6 +124,12 @@
         "eligibilityId": "EID_OH",
         "name": "OH",
         "desc": "Ohio"
+      },
+      {
+        "id": "PA",
+        "eligibilityId": "EID_PA",
+        "name": "PA",
+        "desc": "Pennsylvania"
       },
       {
         "id": "PR",
