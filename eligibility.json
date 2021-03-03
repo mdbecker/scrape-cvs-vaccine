@@ -33,6 +33,16 @@
                 "allowIntake": true
               },
               {
+                "question": "Teachers K-12, Daycare and preschool workers, and staff members",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
                 "question": "Age 16+ with high-risk conditions",
                 "questionType": "option",
                 "errorMessage": null,

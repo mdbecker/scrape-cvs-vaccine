@@ -23,6 +23,14 @@
       },
       {
         "immunizationCode": "CVD",
+        "ndcId": "59676058015",
+        "name": "JANSSEN COVID-19 VACCINE (EUA)",
+        "addlDoseDaysMin": 0,
+        "addlDoseDaysMax": 0,
+        "additionalDoseRequired": "N"
+      },
+      {
+        "immunizationCode": "CVD",
         "ndcId": "80777027399",
         "name": "MODERNA COVID-19 VACCINE (EUA)",
         "addlDoseDaysMin": 28,
