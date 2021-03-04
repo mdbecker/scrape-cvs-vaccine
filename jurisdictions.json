@@ -90,6 +90,12 @@
         "desc": "Iowa"
       },
       {
+        "id": "KY",
+        "eligibilityId": "EID_KY",
+        "name": "KY",
+        "desc": "Kentucky"
+      },
+      {
         "id": "LA",
         "eligibilityId": "EID_LA",
         "name": "LA",
@@ -108,6 +114,12 @@
         "desc": "Massachusetts"
       },
       {
+        "id": "MO",
+        "eligibilityId": "EID_MO",
+        "name": "MO",
+        "desc": "Missouri"
+      },
+      {
         "id": "NJ",
         "eligibilityId": "EID_NJ",
         "name": "NJ",
@@ -120,6 +132,12 @@
         "desc": "New York"
       },
       {
+        "id": "NC",
+        "eligibilityId": "EID_NC",
+        "name": "NC",
+        "desc": "North Carolina"
+      },
+      {
         "id": "OH",
         "eligibilityId": "EID_OH",
         "name": "OH",
@@ -129,7 +147,13 @@
         "id": "PA",
         "eligibilityId": "EID_PA",
         "name": "PA",
-        "desc": "Pennsylvania"
+        "desc": "Pennsylvania-Other"
+      },
+      {
+        "id": "PA_PHI",
+        "eligibilityId": "EID_PA_PHI",
+        "name": "PA_PHI",
+        "desc": "Pennsylvania-Philadelphia"
       },
       {
         "id": "PR",
@@ -154,6 +178,12 @@
         "eligibilityId": "EID_TX",
         "name": "TX",
         "desc": "Texas"
+      },
+      {
+        "id": "UT",
+        "eligibilityId": "EID_UT",
+        "name": "UT",
+        "desc": "Utah"
       },
       {
         "id": "VA",
