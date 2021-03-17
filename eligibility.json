@@ -4,6 +4,7 @@
     "statusDesc": "Success",
   },
   "responsePayloadData": {
+    "eligibilityContent": "<p>Age will be used to determine which vaccine(s) patients are eligible for.<p><b>Please be ready to verify once you get to your pharmacy/clinic.<b>",
     "eligibilityQuestions": [
       {
         "questionId": "1",
@@ -23,17 +24,20 @@
         "answerOptions": [
           {
             "question": "In a priority group",
+            "questionValue": "In a priority group",
             "questionType": "list",
             "questionHint": "What priority group are you in?",
             "answerOptions": [
               {
                 "question": "Age 65 and over",
+                "questionValue": "Age 65 and over",
                 "questionType": "option",
                 "errorMessage": null,
                 "allowIntake": true
               },
               {
                 "question": "Teachers K-12, Daycare and preschool workers, and staff members",
+                "questionValue": "Teachers K-12, Daycare and preschool workers, and staff members",
                 "questionType": "text",
                 "errorMessage": "Enter Employer",
                 "answerHint": "Employer name",
@@ -44,12 +48,14 @@
               },
               {
                 "question": "Age 16+ with high-risk conditions",
+                "questionValue": "Age 16+ with high-risk conditions",
                 "questionType": "option",
                 "errorMessage": null,
                 "allowIntake": true
               },
               {
                 "question": "Healthcare personnel",
+                "questionValue": "Healthcare personnel",
                 "questionType": "text",
                 "errorMessage": "Enter Employer",
                 "answerHint": "Employer name",
@@ -60,12 +66,14 @@
               },
               {
                 "question": "Long term care facility residents",
+                "questionValue": "Long term care facility residents",
                 "questionType": "option",
                 "errorMessage": null,
                 "allowIntake": true
               },
               {
                 "question": "Long term care facility staff",
+                "questionValue": "Long term care facility staff",
                 "questionType": "text",
                 "errorMessage": "Enter Employer",
                 "answerHint": "Employer name",
@@ -76,6 +84,7 @@
               },
               {
                 "question": "None of the above",
+                "questionValue": "None of the above",
                 "questionType": "option",
                 "errorMessage": null,
                 "allowIntake": false
@@ -84,6 +93,7 @@
           },
           {
             "question": "None of the above",
+            "questionValue": "None of the above",
             "questionType": "option",
             "allowIntake": false
           }
