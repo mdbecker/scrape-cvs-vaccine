@@ -90,6 +90,12 @@
         "desc": "Iowa"
       },
       {
+        "id": "KS",
+        "eligibilityId": "EID_KS",
+        "name": "KS",
+        "desc": "Kansas"
+      },
+      {
         "id": "KY",
         "eligibilityId": "EID_KY",
         "name": "KY",
@@ -114,10 +120,22 @@
         "desc": "Massachusetts"
       },
       {
+        "id": "MI",
+        "eligibilityId": "EID_MI",
+        "name": "MI",
+        "desc": "Michigan"
+      },
+      {
         "id": "MN",
         "eligibilityId": "EID_MN",
         "name": "MN",
         "desc": "Minnesota"
+      },
+      {
+        "id": "MS",
+        "eligibilityId": "EID_MS",
+        "name": "MS",
+        "desc": "Mississippi"
       },
       {
         "id": "MO",
@@ -178,6 +196,12 @@
         "eligibilityId": "EID_OK",
         "name": "OK",
         "desc": "Oklahoma"
+      },
+      {
+        "id": "OR",
+        "eligibilityId": "EID_OR",
+        "name": "OR",
+        "desc": "Oregon"
       },
       {
         "id": "PA",
