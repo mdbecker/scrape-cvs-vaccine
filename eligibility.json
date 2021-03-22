@@ -23,18 +23,23 @@
         "questionType": "options",
         "answerOptions": [
           {
-            "question": "In a priority group",
-            "questionValue": "In a priority group",
+            "question": "Age 65 and over",
+            "questionValue": "Age 65 and over",
+            "questionType": "option",
+            "allowIntake": true
+          },
+          {
+            "question": "Age 16+ with high-risk conditions",
+            "questionValue": "Age 16+ with high-risk conditions",
+            "questionType": "option",
+            "allowIntake": true
+          },
+          {
+            "question": "In another priority group",
+            "questionValue": "In another priority group",
             "questionType": "list",
             "questionHint": "What priority group are you in?",
             "answerOptions": [
-              {
-                "question": "Age 65 and over",
-                "questionValue": "Age 65 and over",
-                "questionType": "option",
-                "errorMessage": null,
-                "allowIntake": true
-              },
               {
                 "question": "Teachers K-12, Daycare and preschool workers, and staff members",
                 "questionValue": "Teachers K-12, Daycare and preschool workers, and staff members",
@@ -44,13 +49,6 @@
                 "textLength": "50",
                 "textType": "A",
                 "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Age 16+ with high-risk conditions",
-                "questionValue": "Age 16+ with high-risk conditions",
-                "questionType": "option",
-                "errorMessage": null,
                 "allowIntake": true
               },
               {
