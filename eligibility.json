@@ -9,7 +9,7 @@
       {
         "questionId": "1",
         "rxQuestionId": "55428",
-        "question": "What is your age?",
+        "question": "What is your age? (If scheduling someone else, indicate their age)",
         "questionType": "text",
         "textType": "N",
         "answerHint": "Enter age",
@@ -19,19 +19,21 @@
       {
         "questionId": "2",
         "rxQuestionId": "57506",
-        "question": "Which of these applies to you?",
+        "question": "Which group applies?",
         "questionType": "options",
         "answerOptions": [
           {
             "question": "Age 65 and over",
             "questionValue": "Age 65 and over",
             "questionType": "option",
+            "questionHint": " ",
             "allowIntake": true
           },
           {
             "question": "Age 16+ with high-risk conditions",
             "questionValue": "Age 16+ with high-risk conditions",
             "questionType": "option",
+            "questionHint": " ",
             "allowIntake": true
           },
           {
@@ -41,8 +43,30 @@
             "questionHint": "What priority group are you in?",
             "answerOptions": [
               {
-                "question": "Teachers K-12, Daycare and preschool workers, and staff members",
-                "questionValue": "Teachers K-12, Daycare and preschool workers, and staff members",
+                "question": "Teachers and staff in PreK-12 Schools",
+                "questionValue": "Teachers and staff in PreK-12 Schools",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Childcare centers and staff",
+                "questionValue": "Childcare centers and staff",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Head Start, Part C Intervention & licensed home visitors and staff",
+                "questionValue": "Head Start, Part C Intervention & licensed home visitors and staff",
                 "questionType": "text",
                 "errorMessage": "Enter Employer",
                 "answerHint": "Employer name",
