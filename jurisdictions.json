@@ -48,6 +48,12 @@
         "desc": "Delaware"
       },
       {
+        "id": "DC",
+        "eligibilityId": "EID_DC",
+        "name": "DC",
+        "desc": "District of Columbia"
+      },
+      {
         "id": "FL",
         "eligibilityId": "EID_FL",
         "name": "FL",
@@ -232,6 +238,12 @@
         "eligibilityId": "EID_SC",
         "name": "SC",
         "desc": "South Carolina"
+      },
+      {
+        "id": "TN",
+        "eligibilityId": "EID_TN",
+        "name": "TN",
+        "desc": "Tennessee"
       },
       {
         "id": "TX",
