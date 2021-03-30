@@ -168,6 +168,12 @@
         "desc": "New Jersey"
       },
       {
+        "id": "NM",
+        "eligibilityId": "EID_NM",
+        "name": "NM",
+        "desc": "New Mexico"
+      },
+      {
         "id": "NY_NYC",
         "eligibilityId": "EID_NY_NYC",
         "name": "NY_NYC",
@@ -268,6 +274,24 @@
         "eligibilityId": "EID_VA",
         "name": "VA",
         "desc": "Virginia"
+      },
+      {
+        "id": "WA",
+        "eligibilityId": "EID_WA",
+        "name": "WA",
+        "desc": "Washington"
+      },
+      {
+        "id": "WV",
+        "eligibilityId": "EID_WV",
+        "name": "WV",
+        "desc": "West Virginia"
+      },
+      {
+        "id": "WI",
+        "eligibilityId": "EID_WI",
+        "name": "WI",
+        "desc": "Wisconsin"
       }
     ]
   }
