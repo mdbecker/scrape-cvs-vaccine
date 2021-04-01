@@ -105,6 +105,39 @@
                 "allowIntake": true
               },
               {
+                "question": "Law enforcement, firefighter",
+                "questionValue": "Law enforcement, firefighter",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Grocery store and Food and Agriculture worker",
+                "questionValue": "Grocery store and Food and Agriculture worker",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Corrections officer staff",
+                "questionValue": "Corrections officer staff",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "who is your employer?",
+                "allowIntake": true
+              },
+              {
                 "question": "None of the above",
                 "questionValue": "None of the above",
                 "questionType": "option",
