@@ -12,6 +12,12 @@
         "desc": "Alabama"
       },
       {
+        "id": "AK",
+        "eligibilityId": "EID_AK",
+        "name": "AK",
+        "desc": "Alaska"
+      },
+      {
         "id": "AZ",
         "eligibilityId": "EID_AZ",
         "name": "AZ",
