@@ -4,7 +4,7 @@
     "statusDesc": "Success",
   },
   "responsePayloadData": {
-    "eligibilityContent": "<p>Age will be used to determine which vaccine(s) patients are eligible for.<p><b>Please be ready to verify once you get to your pharmacy/clinic.<b>",
+    "eligibilityContent": "<p>Age will be used to determine which vaccine(s) patients are eligible for.</p><b>Please be ready to verify once you get to your pharmacy/clinic.</b>",
     "eligibilityQuestions": [
       {
         "questionId": "1",
@@ -43,8 +43,8 @@
             "questionHint": "What priority group are you in?",
             "answerOptions": [
               {
-                "question": "Teachers and staff in PreK-12 Schools",
-                "questionValue": "Teachers and staff in PreK-12 Schools",
+                "question": "Teachers and staff in PreK-12 schools",
+                "questionValue": "Teachers and staff in PreK-12 schools",
                 "questionType": "text",
                 "errorMessage": "Enter Employer",
                 "answerHint": "Employer name",
@@ -76,8 +76,8 @@
                 "allowIntake": true
               },
               {
-                "question": "Healthcare personnel",
-                "questionValue": "Healthcare personnel",
+                "question": "Healthcare personnel, first responder",
+                "questionValue": "Healthcare personnel, first responder",
                 "questionType": "text",
                 "errorMessage": "Enter Employer",
                 "answerHint": "Employer name",
@@ -135,6 +135,57 @@
                 "textLength": "50",
                 "textType": "A",
                 "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "US Postal Service workers",
+                "questionValue": "US Postal Service workers",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Manufacturing workers",
+                "questionValue": "Manufacturing workers",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Clergy and essential support for houses of worship",
+                "questionValue": "Clergy and essential support for houses of worship",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Public transit workers",
+                "questionValue": "Public transit workers",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Individuals living in congregate care settings",
+                "questionValue": "Individuals living in congregate care settings",
+                "questionType": "option",
+                "errorMessage": null,
                 "allowIntake": true
               },
               {
