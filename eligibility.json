@@ -182,6 +182,39 @@
                 "allowIntake": true
               },
               {
+                "question": "Frontline essential workers",
+                "questionValue": "Frontline essential workers",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Critical infrastructure workers",
+                "questionValue": "Critical infrastructure workers",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
+                "question": "Finance, legal, government, and media workers",
+                "questionValue": "Finance, legal, government, and media workers",
+                "questionType": "text",
+                "errorMessage": "Enter Employer",
+                "answerHint": "Employer name",
+                "textLength": "50",
+                "textType": "A",
+                "questionHint": "Who is your employer?",
+                "allowIntake": true
+              },
+              {
                 "question": "Individuals living in congregate care settings",
                 "questionValue": "Individuals living in congregate care settings",
                 "questionType": "option",
