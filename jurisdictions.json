@@ -78,6 +78,12 @@
         "desc": "Hawaii"
       },
       {
+        "id": "ID",
+        "eligibilityId": "EID_ID",
+        "name": "ID",
+        "desc": "Idaho"
+      },
+      {
         "id": "IL_CHI",
         "eligibilityId": "EID_IL_CHI",
         "name": "IL_CHI",
@@ -120,6 +126,12 @@
         "desc": "Louisiana"
       },
       {
+        "id": "ME",
+        "eligibilityId": "EID_ME",
+        "name": "ME",
+        "desc": "Maine"
+      },
+      {
         "id": "MD",
         "eligibilityId": "EID_MD",
         "name": "MD",
@@ -160,6 +172,12 @@
         "eligibilityId": "EID_MT",
         "name": "MT",
         "desc": "Montana"
+      },
+      {
+        "id": "NE",
+        "eligibilityId": "EID_NE",
+        "name": "NE",
+        "desc": "Nebraska"
       },
       {
         "id": "NV",
@@ -252,6 +270,12 @@
         "desc": "South Carolina"
       },
       {
+        "id": "SD",
+        "eligibilityId": "EID_SD",
+        "name": "SD",
+        "desc": "South Dakota"
+      },
+      {
         "id": "TN",
         "eligibilityId": "EID_TN",
         "name": "TN",
@@ -298,6 +322,12 @@
         "eligibilityId": "EID_WI",
         "name": "WI",
         "desc": "Wisconsin"
+      },
+      {
+        "id": "WY",
+        "eligibilityId": "EID_WY",
+        "name": "WY",
+        "desc": "Wyoming"
       }
     ]
   }

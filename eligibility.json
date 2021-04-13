@@ -4,7 +4,7 @@
     "statusDesc": "Success",
   },
   "responsePayloadData": {
-    "eligibilityContent": "<p>Age will be used to determine which vaccine(s) patients are eligible for.</p><b>Please be ready to verify once you get to your pharmacy/clinic.</b>",
+    "eligibilityContent": "<p>Your state eligibility is open to anyone age 16 or over</p><p>Age will be used to determine which vaccine(s) patients are eligible for.</p><b>Please be ready to verify once you get to your pharmacy/clinic.</b>",
     "eligibilityQuestions": [
       {
         "questionId": "1",
@@ -23,218 +23,18 @@
         "questionType": "options",
         "answerOptions": [
           {
-            "question": "Age 65 and over",
-            "questionValue": "Age 65 and over",
+            "question": "Teachers and staff in PreK-12 schools, childcare centers, Head Start, Part C Intervention & licensed home visitors",
+            "questionValue": "Teachers and staff in PreK-12 schools, childcare centers, Head Start, Part C Intervention & licensed home visitors",
             "questionType": "option",
             "questionHint": " ",
             "allowIntake": true
           },
           {
-            "question": "Age 16+ with high-risk conditions",
-            "questionValue": "Age 16+ with high-risk conditions",
+            "question": "All others age 16 and over",
+            "questionValue": "All others age 16 and over",
             "questionType": "option",
             "questionHint": " ",
             "allowIntake": true
-          },
-          {
-            "question": "In another priority group",
-            "questionValue": "In another priority group",
-            "questionType": "list",
-            "questionHint": "What priority group are you in?",
-            "answerOptions": [
-              {
-                "question": "Teachers and staff in PreK-12 schools",
-                "questionValue": "Teachers and staff in PreK-12 schools",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Childcare centers and staff",
-                "questionValue": "Childcare centers and staff",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Head Start, Part C Intervention & licensed home visitors and staff",
-                "questionValue": "Head Start, Part C Intervention & licensed home visitors and staff",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Healthcare personnel, first responder",
-                "questionValue": "Healthcare personnel, first responder",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Long term care facility residents",
-                "questionValue": "Long term care facility residents",
-                "questionType": "option",
-                "errorMessage": null,
-                "allowIntake": true
-              },
-              {
-                "question": "Long term care facility staff",
-                "questionValue": "Long term care facility staff",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Law enforcement, firefighter",
-                "questionValue": "Law enforcement, firefighter",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Grocery store and Food and Agriculture worker",
-                "questionValue": "Grocery store and Food and Agriculture worker",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Corrections officer staff",
-                "questionValue": "Corrections officer staff",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "US Postal Service workers",
-                "questionValue": "US Postal Service workers",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Manufacturing workers",
-                "questionValue": "Manufacturing workers",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Clergy and essential support for houses of worship",
-                "questionValue": "Clergy and essential support for houses of worship",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Public transit workers",
-                "questionValue": "Public transit workers",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Frontline essential workers",
-                "questionValue": "Frontline essential workers",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Critical infrastructure workers",
-                "questionValue": "Critical infrastructure workers",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Finance, legal, government, and media workers",
-                "questionValue": "Finance, legal, government, and media workers",
-                "questionType": "text",
-                "errorMessage": "Enter Employer",
-                "answerHint": "Employer name",
-                "textLength": "50",
-                "textType": "A",
-                "questionHint": "Who is your employer?",
-                "allowIntake": true
-              },
-              {
-                "question": "Individuals living in congregate care settings",
-                "questionValue": "Individuals living in congregate care settings",
-                "questionType": "option",
-                "errorMessage": null,
-                "allowIntake": true
-              },
-              {
-                "question": "None of the above",
-                "questionValue": "None of the above",
-                "questionType": "option",
-                "errorMessage": null,
-                "allowIntake": false
-              }
-            ]
-          },
-          {
-            "question": "None of the above",
-            "questionValue": "None of the above",
-            "questionType": "option",
-            "allowIntake": false
           }
         ]
       }
