@@ -4,7 +4,7 @@
     "statusDesc": "Success",
   },
   "responsePayloadData": {
-    "eligibilityContent": "<p>Your state eligibility is open to anyone age 16 or over</p><p>Age will be used to determine which vaccine(s) patients are eligible for.</p><b>Please be ready to verify once you get to your pharmacy/clinic.</b>",
+    "eligibilityContent": "<p>Your state eligibility is open to anyone age 16 or over</p><p>Age will be used to determine which vaccine(s) patients are eligible for.</p><p>Patients under 16 years old must be accompanied by a parent, legal guardian, or authorized representative. Patients under 18 must have the consent of a parent or guardian to receive the vaccine.</p><b>Please be ready to verify once you get to your pharmacy/clinic.</b>",
     "eligibilityQuestions": [
       {
         "questionId": "1",
