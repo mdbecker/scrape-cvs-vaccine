@@ -31,6 +31,14 @@
       },
       {
         "immunizationCode": "CVD",
+        "ndcId": "80777027398",
+        "name": "MODERNA COVID-19 VACCINE (EUA)",
+        "addlDoseDaysMin": 28,
+        "addlDoseDaysMax": 30,
+        "additionalDoseRequired": "Y"
+      },
+      {
+        "immunizationCode": "CVD",
         "ndcId": "80777027399",
         "name": "MODERNA COVID-19 VACCINE (EUA)",
         "addlDoseDaysMin": 28,
