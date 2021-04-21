@@ -15,28 +15,6 @@
         "answerHint": "Enter age",
         "errorMessage": "Please enter your age",
         "textLength": "3"
-      },
-      {
-        "questionId": "2",
-        "rxQuestionId": "57506",
-        "question": "Which group applies?",
-        "questionType": "options",
-        "answerOptions": [
-          {
-            "question": "Teachers and staff in PreK-12 schools, childcare centers, Head Start, Part C Intervention & licensed home visitors",
-            "questionValue": "Teachers and staff in PreK-12 schools, childcare centers, Head Start, Part C Intervention & licensed home visitors",
-            "questionType": "option",
-            "questionHint": " ",
-            "allowIntake": true
-          },
-          {
-            "question": "All others age 16 and over",
-            "questionValue": "All others age 16 and over",
-            "questionType": "option",
-            "questionHint": " ",
-            "allowIntake": true
-          }
-        ]
       }
     ]
   }
