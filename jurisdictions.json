@@ -180,6 +180,12 @@
         "desc": "Nevada"
       },
       {
+        "id": "NH",
+        "eligibilityId": "EID_NH",
+        "name": "NH",
+        "desc": "New Hampshire"
+      },
+      {
         "id": "NJ",
         "eligibilityId": "EID_NJ",
         "name": "NJ",
