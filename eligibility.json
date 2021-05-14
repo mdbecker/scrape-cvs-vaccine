@@ -9,12 +9,12 @@
       {
         "questionId": "1",
         "rxQuestionId": "55428",
-        "question": "What is your age? (If scheduling someone else, indicate their age)",
+        "question": "What is your date of birth? (If scheduling someone else, indicate their date of birth)",
         "questionType": "text",
         "textType": "N",
-        "answerHint": "Enter age",
-        "errorMessage": "Please enter your age",
-        "textLength": "3"
+        "answerHint": "Enter without slashes: MMDDYYYY",
+        "errorMessage": "Please enter valid date of birth",
+        "textLength": "10"
       }
     ]
   }
