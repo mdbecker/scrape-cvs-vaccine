@@ -9,7 +9,7 @@
       {
         "questionId": "1",
         "rxQuestionId": "55428",
-        "question": "What is your date of birth? (If scheduling someone else, indicate their date of birth)",
+        "question": "Patient date of birth (required)",
         "questionType": "text",
         "textType": "N",
         "answerHint": "Enter without slashes: MMDDYYYY",
