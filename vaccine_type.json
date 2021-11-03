@@ -23,6 +23,14 @@
       },
       {
         "immunizationCode": "CVD",
+        "ndcId": "59267105504",
+        "name": "PFIZER COVID(5-11Y) VAC(UNAPP)",
+        "addlDoseDaysMin": 21,
+        "addlDoseDaysMax": 23,
+        "additionalDoseRequired": "Y"
+      },
+      {
+        "immunizationCode": "CVD",
         "ndcId": "59676058015",
         "name": "JANSSEN COVID-19 VACCINE (EUA)",
         "addlDoseDaysMin": 60,
