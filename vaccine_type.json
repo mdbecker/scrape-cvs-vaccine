@@ -23,6 +23,14 @@
       },
       {
         "immunizationCode": "CVD",
+        "ndcId": "59267102504",
+        "name": "PFIZER COVID-19 VACCINE",
+        "addlDoseDaysMin": 21,
+        "addlDoseDaysMax": 23,
+        "additionalDoseRequired": "Y"
+      },
+      {
+        "immunizationCode": "CVD",
         "ndcId": "59267105504",
         "name": "PFIZER COVID (5-11Y) VAC (EUA)",
         "addlDoseDaysMin": 21,
